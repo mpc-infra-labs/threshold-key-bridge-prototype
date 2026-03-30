@@ -13,7 +13,7 @@
 - 🔁 Run **Synedrion AuxGen** + **Key Refresh** (simulated via [`manul`](https://github.com/entropyxyz/manul)).
 - ✍️ **Sign** on Sepolia with refreshed keys (Synedrion path), then **bridge back** to CGGMP and sign again — proving the **same address / public key** across the pipeline.
 
-**Goal:** **Both [`cggmp24`](https://docs.rs/cggmp24) and [Synedrion](https://github.com/entropyxyz/synedrion) implement the CGGMP'24 line** (*UC Non-Interactive, Proactive, Threshold ECDSA with Identifiable Aborts*, Canetti et al.) — [IACR ePrint 2021/060](https://eprint.iacr.org/2021/060); they differ in **APIs, types, and shipped features**. This repo **bridges those gaps** so you can **use them together** in one pipeline (e.g. DKG/signing on one stack, **key refresh** where the other stack exposes it).
+**Goal:** **Both [`cggmp24`](https://docs.rs/cggmp24) and [Synedrion](https://github.com/entropyxyz/synedrion) are implementations in the CGGMP'24 family of protocols** (*UC Non-Interactive, Proactive, Threshold ECDSA with Identifiable Aborts*, Canetti et al.) — [IACR ePrint 2021/060](https://eprint.iacr.org/2021/060); they differ in **APIs, types, and shipped features**. This repo **bridges those gaps** so you can **use them together** in one pipeline (e.g. DKG/signing on one stack, **key refresh** where the other stack exposes it).
 
 ---
 
